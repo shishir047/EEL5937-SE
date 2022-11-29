@@ -3,7 +3,7 @@ package io.github.shishir;
 class Main {
     public static void main(String[] args) {
         Main main = new Main();
-         long ccNo = 4160211504265175L;
+         long ccNo = 4160211504265175L; 
           main.validate(ccNo); 
     }
     public void validate(long num) {
