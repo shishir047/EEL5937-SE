@@ -5,7 +5,7 @@ class Main {
         Main main = new Main();
          long ccNo = 4160211504265175L; 
           main.validate(ccNo); 
-    } 
+    }  
     public void validate(long num) {
         long length = (long) (Math.log10(num) + 1);
         if(length<13 || length>16){
