@@ -12,7 +12,7 @@ class Main {
             System.out.println("Invalid Credit Card");
         }else{
             long n = (long) (num/(Math.pow(10,length-1)));
-            long m = (long) (num/(Math.pow(10,length-2)));
+            long m = (long) (num/(Math.pow(10,length-2))); 
             if(n==4 || n==5 || n==6 || m==37){
                 long reversed = 0;
                 long x = num;
